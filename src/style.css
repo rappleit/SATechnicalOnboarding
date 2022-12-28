@@ -1,13 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Patrick+Hand+SC&display=swap');
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     margin: 1% 5%;
-    background-color:E6F7FF;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 50% 50%;
+.titleBox {
+    position: relative;
+    text-align: center;
+}
+
+.titleContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.socialButton {
+    font-size: 30px;
+    background: none;
+    padding: 5px 20px;
+    border: 3px solid #000000;
+    color: black;
+    text-decoration: none;
+}
+
+.socialButton:hover{
+    background-color: #000000;
+    color: #ffffff;
 }
 
 
@@ -23,10 +56,13 @@ main {
 }
 
 h1 {
-    color: navy;
+    color: #000000;
+    font-size: 8vw;
     margin: 0em;
     display: block;
+    font-family: 'Patrick Hand SC', cursive;
 }
+
 
 h2 {
     color: navy;
@@ -44,4 +80,9 @@ ul {
     margin: 0em 0em .3em 0em;
     list-style-type: square;
     padding-left: 1.4em;
+}
+
+a {
+    font-family: 'Patrick Hand', cursive;
+    
 }
