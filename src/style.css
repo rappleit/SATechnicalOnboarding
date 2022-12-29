@@ -76,7 +76,7 @@ body {
     margin-top: .3em;
 }
 
-.educationBox {
+.infoContainerBox {
     display: flex;
     justify-content: center;
     align-items: center;
