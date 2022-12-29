@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Patrick+Hand+SC&display=swap');
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Patrick Hand', cursive;
     font-size: 18px;
     margin: 1% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .titleBox {
@@ -43,16 +46,41 @@ body {
     color: #ffffff;
 }
 
+.scrollDownText {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.infoBox {
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+
+}
+
+.leftInfoBox {
+    width: 100%;
+}
+
+.rightInfoBox {
+    width: 100%;
+}
 
 .box {
-    box-shadow: .1em .1em .2em #80D4FF;
-    border-radius: .4em;
-    border-width: .01em;
+    border-width: 3px;
     border-style: solid;
     margin-left: .4em;
     padding: .0em .5em .1em .5em;
     margin-bottom: .5em;
     margin-top: .3em;
+}
+
+.educationBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 h1 {
@@ -65,15 +93,16 @@ h1 {
 
 
 h2 {
-    color: navy;
+    color: #000000;
     font-size: 1.2em;
     margin: 0em;
+    font-family: 'Patrick Hand SC', cursive;
 }
 
 h3 {
-    color: navy;
-    font-size: 1em;
+    color: #000000;
     margin: 0em;
+    font-family: 'Patrick Hand SC', cursive;
 }
 
 ul {
@@ -82,7 +111,3 @@ ul {
     padding-left: 1.4em;
 }
 
-a {
-    font-family: 'Patrick Hand', cursive;
-    
-}
